@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <VersionPrefix>0.6</VersionPrefix>
-    <TargetFrameworks>netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <AssemblyName>IrcDotNet.Samples.MarkovTextBot</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>IrcDotNet.Samples.MarkovTextBot</PackageId>
@@ -20,13 +19,10 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="../IrcDotNet.Samples.Common/IrcDotNet.Samples.Common.csproj" />
   </ItemGroup>
-
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">
     <DefineConstants>$(DefineConstants);NETCOREAPP</DefineConstants>
   </PropertyGroup>
-
 </Project>

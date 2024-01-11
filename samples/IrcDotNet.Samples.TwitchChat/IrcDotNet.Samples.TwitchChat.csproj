@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <VersionPrefix>0.6</VersionPrefix>
-    <TargetFrameworks>netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <AssemblyName>IrcDotNet.Samples.TwitchChat</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>IrcDotNet.Samples.TwitchChat</PackageId>
@@ -21,13 +20,10 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="../IrcDotNet.Samples.Common/IrcDotNet.Samples.Common.csproj" />
   </ItemGroup>
-
 </Project>

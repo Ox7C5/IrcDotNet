@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <VersionPrefix>0.6</VersionPrefix>
-    <TargetFrameworks>netstandard1.5</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <AssemblyName>IrcDotNet.Samples.Common</AssemblyName>
     <PackageId>IrcDotNet.Samples.Common</PackageId>
     <PackageTags>communication;irc;networking;ctcp</PackageTags>
@@ -19,9 +18,7 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="../../source/IrcDotNet/IrcDotNet.csproj" />
   </ItemGroup>
-
 </Project>
